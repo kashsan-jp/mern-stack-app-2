@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { getPosts } from '../../controllers/postController';
 import { PostContext } from '../../contexts/PostContext';
-import Post from '../../components/posts';
+import Post from "../../components/Posts"
 
 
 function Home() {
