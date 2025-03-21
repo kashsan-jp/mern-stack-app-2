@@ -8,7 +8,7 @@ import Create from "./pages/posts/Create"
 import Update from "./pages/posts/Update"
 import AuthRoutes from "./Routes/AuthRoutes"
 import GuestRoutes from "./Routes/GuestRoutes"
-import Layout from "./pages/layout"
+import Layout from "./pages/Layout"
 
 const App = () => {
   return <BrowserRouter>
