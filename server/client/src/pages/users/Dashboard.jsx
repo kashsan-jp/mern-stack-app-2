@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { deletePost, getUserPosts } from "../../controllers/postController";
 import { UserContext } from "../../contexts/UserContext";
-import Post from "../../components/posts";
+import Post from "../../components/Posts";
 import { Link } from "react-router-dom";
 import Alert from "../../components/Alert";
 import Success from "../../components/Success";
