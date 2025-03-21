@@ -26,6 +26,7 @@ function Home() {
     console.log(posts)
   return (
     <section className='card'>
+        <div className='main-title'>My Blog</div>
         <h1 className='title'>Latest posts</h1>
 
         { loading && (

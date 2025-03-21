@@ -51,6 +51,7 @@ const Dashboard = () => {
 
 
     return (
+        
         <section className="card">
             <p>{user.email}</p>
             <h1 className="title">User Dashboard</h1>
